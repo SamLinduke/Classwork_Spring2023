@@ -1,3 +1,5 @@
 # LDL
 
-Low density L
+LDL (bad) Cholesterol
+
+less than 130 for optimal
