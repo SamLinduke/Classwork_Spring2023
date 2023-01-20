@@ -7,11 +7,14 @@ def interface():
         choice = input("Select an options:")
         if choice == "9":
              keep_running = False
+        elif choice == "1"
+            HDL_driver()
     print("Program ending")
     
 def HDL_driver():
     HDL_in = HDL_input()
     HDL_analy = HDL_analysis(HDL_in)
+    HDL_output(HDL_in, HDL_analy)
     
     
 def HDL_input():
@@ -19,7 +22,7 @@ def HDL_input():
     HDL_value = int(HDL_value)
     return HDL_value
 
-def HDL_analysis(HDL_int)
+def HDL_analysis(HDL_int):
     if HDL_int>= 60:
         answer = "Normal"
     elif 40 <= HDL_int <60:
@@ -29,5 +32,9 @@ def HDL_analysis(HDL_int)
     return answer
 
 
-interface()
+def HDL_ output(HDL_value, HDL_analy)
+    print("The HDL result of {} is considered {}".format(HDL_value).format(HDL_analy))
+    return
 
+
+interface()
