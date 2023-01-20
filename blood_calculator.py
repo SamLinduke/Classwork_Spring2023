@@ -66,4 +66,31 @@ def LDL_analysis(LDL_int):
 def LDL_output(LDL_value, LDL_analy):
     print("The LDL result of {} is considered {}".format(LDL_value,LDL_analy))
     return
+    
+    
+    
+def Total_Cholesterol_driver():
+    Total_Cholesterol_in = Total_Cholesterol_input()
+    Total_Cholesterol_analy = Total_Cholesterol_analysis(Total_Cholesterol_in)
+    Total_Cholesterol_output(Total_Cholesterol_in, Total_Cholesterol_analy)
+    
+    
+def Total_Cholesterol_input():
+    Total_Cholesterol_value = input("Enter the Total Cholesterol result:")
+    Total_Cholesterol_value = int(Total_Cholesterol_value)
+    return HDL_value
+
+def Total_Cholesterol_analysis(Total_Cholesterol_int):
+    if Total_Cholesterol_int < 200:
+        answer = "Normal"
+    elif 200 <= Total_Cholesterol_int <239:
+        answer = "Borderline High"
+    else:
+        answer = "Low"
+    return answer
+
+
+def Total_Cholesterol_output(Total_Cholesterol_value, Total_Cholesterol_analy):
+    print("The Total Cholesterol result of {} is considered {}".format(Total_Cholesterol_value,Total_Cholesterol_analy))
+    return
 interface()
