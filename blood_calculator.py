@@ -7,7 +7,7 @@ def interface():
         choice = input("Select an options:")
         if choice == "9":
              keep_running = False
-        elif choice == "1"
+        elif choice == "1":
             HDL_driver()
     print("Program ending")
     
@@ -32,8 +32,8 @@ def HDL_analysis(HDL_int):
     return answer
 
 
-def HDL_ output(HDL_value, HDL_analy)
-    print("The HDL result of {} is considered {}".format(HDL_value).format(HDL_analy))
+def HDL_output(HDL_value, HDL_analy):
+    print("The HDL result of {} is considered {}".format(HDL_value,HDL_analy))
     return
 
 
