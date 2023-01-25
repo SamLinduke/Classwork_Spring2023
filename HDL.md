@@ -1,3 +1,5 @@
 # HDL
 
-HDL THING
+HDL (Good) Cholesterol
+
+50 and above
