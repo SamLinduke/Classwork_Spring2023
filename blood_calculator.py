@@ -1,3 +1,7 @@
+print("This is the blood_calculator.py file")
+print("Python thinks this is called {}".format(__name__))
+
+
 def interface():
     print("blood calculator")
     keep_running = True
@@ -93,4 +97,6 @@ def Total_Cholesterol_analysis(Total_Cholesterol_int):
 def Total_Cholesterol_output(Total_Cholesterol_value, Total_Cholesterol_analy):
     print("The Total Cholesterol result of {} is considered {}".format(Total_Cholesterol_value,Total_Cholesterol_analy))
     return
-interface()
+
+if __name__ == "__main__":
+    interface()
